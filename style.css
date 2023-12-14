@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(
+    90deg,
+    rgb(227, 255, 248, 0) 82.08%,
+    rgb(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #3f3d56;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #89c5cc;
+  border-radius: 20px;
+  border: 3px solid #3f3d56;
+}
+
+::-moz-selection {
+  background-color: #89c5cc;
+  color: #000;
+}
+
+::selection {
+  background-color: #89c5cc;
+  color: #000;
+}
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+.group-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+main {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1f1534;
+  text-decoration: none;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+
+  font-weight: normal;
+
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+
+  max-width: 440px;
+  margin: 40px 0;
+}
+
+button {
+  color: #ffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background: #69b99d;
+  border: 0;
+  padding: 15px 50px 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+
+  text-align: center;
+
+  margin-top: 80px;
+
+  margin-bottom: 30px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
